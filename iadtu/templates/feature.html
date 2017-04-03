@@ -4,5 +4,13 @@
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
 {% block content %}
+    <header id="main-header">
+        <div class="container">
+                {% placeholder "feature" %}
+        </div>
+    </header>
+    <div class="container">
         {% placeholder "content" %}
+    </div>
 {% endblock content %}
+

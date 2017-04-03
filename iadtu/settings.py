@@ -28,7 +28,11 @@ SECRET_KEY = '3crl==23javq^goq7_0=@9%zek+z7tz2)s#3$@#vlybbiq^uce'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '35.154.220.20',
+    'international.dtu.ac.in',
+    ]
 
 
 # Application definition
@@ -69,8 +73,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(DATA_DIR, 'media')
-STATIC_ROOT = os.path.join(DATA_DIR, 'static')
+MEDIA_ROOT = '/opt/iadtu/media'
+STATIC_ROOT = '/opt/iadtu/static'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'iadtu', 'static'),
@@ -148,7 +152,9 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
-    'iadtu'
+    'iadtu',
+    # Added by me 
+    'aldryn_bootstrap3',
 )
 
 LANGUAGES = (
@@ -187,12 +193,12 @@ CMS_PLACEHOLDER_CONF = {}
 DATABASES = {
     'default': {
         'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.sqlite3',
-        'HOST': 'localhost',
-        'NAME': 'project.db',
-        'PASSWORD': '',
-        'PORT': '',
-        'USER': ''
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'iadtudb.cktzapp1saji.ap-south-1.rds.amazonaws.com',
+        'NAME': 'iadtu',
+        'PASSWORD': '3:24PM23032017',
+        'PORT': '3306',
+        'USER': 'himanshu'
     }
 }
 
@@ -206,3 +212,5 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+DJANGOCMS_GOOGLEMAP_API_KEY = 'AIzaSyBFznJX0lVeReMFjMIaRyeASmGz0ZkmF0A'
