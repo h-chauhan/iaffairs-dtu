@@ -16,7 +16,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #BDBDBD;
+    color: #9E9E9E;
     outline: none;
 }
 
@@ -37,7 +37,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-    color: #BDBDBD;
+    color: #9E9E9E;
 }
 
 hr.star-light,
@@ -94,7 +94,7 @@ header .container {
 
 header .intro-text .name {
     display: block;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;

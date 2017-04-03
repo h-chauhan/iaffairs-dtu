@@ -73,8 +73,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/opt/iadtu/media'
-STATIC_ROOT = '/opt/iadtu/static'
+MEDIA_ROOT = '/opt/iadtu/media/'
+STATIC_ROOT = '/opt/iadtu/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'iadtu', 'static'),
