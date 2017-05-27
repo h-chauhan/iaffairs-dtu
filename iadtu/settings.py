@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '35.154.220.20',
+    '13.126.29.211',
     'international.dtu.ac.in',
     ]
 
