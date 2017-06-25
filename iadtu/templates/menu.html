@@ -1,20 +1,15 @@
-{% load i18n menu_tags cache %}
+{% load cms_tags menu_tags cache %}
 
 {% for child in children %}
-    <li class="
-        {% if child.ancestor %}ancestor{% endif %}
-        {% if child.selected %} active{% endif %}
-        {% if child.children %} dropdown{% endif %}">
-        {% if child.children %}
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                {{ child.get_menu_title }} <span class="caret"></span>
-            </a>
+    <li class="menu-item {% if child.children %}  dropdown {% if child.level >= 1 %}dropdown-submenu{% endif %}{% endif %}">
+        <a href="{{ child.attr.redirect_url|default:child.get_absolute_url }}" {% if child.children %} class="dropdown-toggle" data-toggle="dropdown" {% endif %}>
+            {{ child.get_menu_title }}
+            {% if child.level == 0 and child.children %}<span class="caret"></span>{% endif %}
+        </a>
+        {% if child.children and child.level <= 4 %}
             <ul class="dropdown-menu">
-                {% show_menu from_level to_level extra_inactive extra_active template "" "" child %}
+            {% show_menu from_level to_level extra_inactive extra_active template '' '' child %}
             </ul>
-        {% else %}
-            <a href="{{ child.get_absolute_url }}"><span>{{ child.get_menu_title }}</span></a>
         {% endif %}
     </li>
-    {% if class and forloop.last and not forloop.parentloop %}{% endif %}
 {% endfor %}
