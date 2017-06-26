@@ -1,4 +1,5 @@
 import os
+import mysettings
 gettext = lambda s: s
 DATA_DIR = os.path.dirname(os.path.dirname(__file__))
 """
@@ -195,11 +196,11 @@ DATABASES = {
     'default': {
         'CONN_MAX_AGE': 0,
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'iadtudb.cktzapp1saji.ap-south-1.rds.amazonaws.com',
+        'HOST': mysettings.DATABASE_HOST,
         'NAME': 'iadtu',
-        'PASSWORD': '3:24PM23032017',
+        'PASSWORD': mysettings.DATABASE_PASSWORD,
         'PORT': '3306',
-        'USER': 'himanshu'
+        'USER': 'root'
     }
 }
 
