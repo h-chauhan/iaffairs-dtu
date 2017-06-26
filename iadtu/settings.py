@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '13.126.29.211',
     'international.dtu.ac.in',
+    'zeerorg.hopto.org'
     ]
 
 

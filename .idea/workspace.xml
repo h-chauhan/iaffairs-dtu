@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a3e813d-e007-4a92-9d2d-93d6bfc48d48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iadtu/settings.py" afterPath="$PROJECT_DIR$/iadtu/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,18 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iadtu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-                <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-                <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-                <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-              </folding>
+            <state relative-caret-position="246">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
@@ -144,9 +138,9 @@
         <option value="$PROJECT_DIR$/iadtu/templates/dropdownmenu.html" />
         <option value="$PROJECT_DIR$/iadtu/templates/base.html" />
         <option value="$PROJECT_DIR$/iadtu/templates/menu.html" />
-        <option value="$PROJECT_DIR$/iadtu/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/iadtu/settings.py" />
       </list>
     </option>
   </component>
@@ -422,13 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -454,13 +442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,13 +491,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,13 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -642,13 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,13 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -780,20 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iadtu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1498455140596" expanded="true" signature="4940:4946" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4940:4948" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="4972:4978" ph="..." />
-            <marker date="1498455140596" expanded="true" signature="5010:5205" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iadtu/mysettings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -814,6 +758,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iadtu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>
