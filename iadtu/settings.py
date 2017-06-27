@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '13.126.29.211',
     'intaffairs.dtu.ac.in',
+    'www.intaffairs.dtu.ac.in',
     'zeerorg.hopto.org',
     '10.60.0.12'
     ]
